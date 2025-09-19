@@ -1,0 +1,41 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*_test
+
+# Compiled Go packages
+*.o
+*.a
+
+# Go module cache
+# This is typically located in your GOPATH/pkg/mod, but if you have a local
+# module cache or vendor directory, you might want to ignore it.
+# vendor/ # Uncomment if you are vendoring dependencies and want to ignore the entire vendor directory
+
+# IDE and editor specific files
+.idea/ # IntelliJ IDEA
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Log files
+*.log
+
+# Temporary files
+*~
+.#*
+*.swp
+.bak
+
+# Build output directories
+# If you have specific directories where your build output goes, add them here.
+# For example, if you build into a 'bin' directory:
+# bin/
+
+.env
