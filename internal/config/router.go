@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/quochao170402/notification-service/internal/api/handler"
+	"github.com/quochao170402/notification-service/internal/handler"
 	"github.com/quochao170402/notification-service/internal/repository"
 	"github.com/quochao170402/notification-service/internal/service"
 )
